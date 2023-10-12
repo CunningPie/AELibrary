@@ -55,7 +55,6 @@ def filter_electromagnetic(data):
     mask = [True] * len(filtered_data)
 
     i = 0
-    index_le = -1
 
     while i < len(filtered_data):
         if filtered_data["Id"][i] == "le":

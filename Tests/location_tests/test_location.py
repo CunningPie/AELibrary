@@ -2,8 +2,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from aelib import location
-from aelib import io
+from aelib import location, io
 
 
 DATA_DIR = Path(__file__).resolve().parent / "data"
@@ -13,6 +12,8 @@ WAVE = DATA_DIR / "wave.txt"
 WAVE2 = DATA_DIR / "wave2.txt"
 COORDS = DATA_DIR / "K2_coords.txt"
 COORDS2 = DATA_DIR / "coords2.txt"
+
+location.WIDTH = 520
 
 
 def test_get_wave():

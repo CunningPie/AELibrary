@@ -1,5 +1,4 @@
-
-WIDTH = 520
+WIDTH : float
 
 
 def get_wave(data, num):
